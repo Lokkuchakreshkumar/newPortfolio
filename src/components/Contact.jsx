@@ -17,7 +17,7 @@ const Contact = () => {
          <input type="text" placeholder="Enter the Subject" name="subject" id='Subject' className='bg-[#171717] text-xl text-white placeholder:text-2xl w-full mt-1 h-14 px-4 rounded-xl border border-white placeholder:text-white/80' />
             <label htmlFor="msg" className='  text-white  mt-4 mr-auto text-2xl'>Message</label>
          <input type="text" placeholder="Enter your message" name="msg" id='msg' className='bg-[#171717] mb-14 text-xl text-white w-full mt-1 h-36 px-4 rounded-xl border border-white placeholder:text-2xl placeholder:text-white/80' />
-         <button type='submit' className="bg-linear-to-r from-[#080B12] border border-white/10 hover:scale-104 transition duration-400 hover:cursor-pointer to-[#01013b] text-white/80  text-2xl flex px-8 justify-center items-center mb-4 p-4 rounded-3xl"><FaRegEnvelope className="inline mr-2 text-2xl"/>Submit</button>
+         <button type='submit' className="bg-linear-to-r mb-16 from-[#080B12] border border-white/10 hover:scale-104 transition duration-400 hover:cursor-pointer to-[#01013b] text-white/80  text-2xl flex px-8 justify-center items-center mb-4 p-4 rounded-3xl"><FaRegEnvelope className="inline mr-2 text-2xl"/>Submit</button>
           </form>
             
         

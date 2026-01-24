@@ -12,7 +12,7 @@ function App() {
           <Navbar/>
           <Mainpage/>
         
-          <div className='sm:!w-[42%] w-full bg-white/0 fixed bottom-0 backdrop-blur-xs h-10 rounded-xl'></div>
+          <div className='sm:!w-[42%] w-full  [mask-image:linear-gradient(to_top,white_30%,transparent_100%)] bg-white/0 fixed bottom-0 backdrop-blur-xs h-10 rounded-t-xl'></div>
       </div>
     </div>
   )
