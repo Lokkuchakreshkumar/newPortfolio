@@ -2,12 +2,13 @@
 import Mainpage from './components/Mainpage'
 import Navbar from './components/Navbar'
 import './oneko.js'
-
+import Theme from './Theme.jsx'
 function App() {
-  
 
+  const {mode} = Theme();
+console.log(mode)
   return (
-    <div className='bg-[#0A0A0A] sm:!p-0 px-4  scroll-smooth hanken w-full pb-20 flex justify-center min-h-screen text-white'>  
+    <div className={` transition duration-500 ${mode==="dark"?"bg-[#0A0A0A] text-white":"bg-white text-black"} sm:!p-0 px-4  scroll-smooth hanken w-full pb-20 flex justify-center min-h-screen `}>  
       <div className='sm:!w-[42%] w-full'>
           <Navbar/>
           <Mainpage/>

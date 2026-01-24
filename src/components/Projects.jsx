@@ -3,36 +3,39 @@ import kled from '../assets/Images/kled.png'
 import gosynk from '../assets/Images/gosynk.png'
 import { FiGithub } from "react-icons/fi";
 import skilldex from '../assets/Images/skilldex.png'
+import Theme from '../Theme.jsx'
 import uselai from '../assets/Images/uselai.png'
-import { GoGlobe } from "react-icons/go";const Projects = () => {
+import { GoGlobe } from "react-icons/go";
+const Projects = () => {
+  const {mode } = Theme();
   return (
     <section id='projects' className='mt-4 !p-4 flex flex-col '>
-        <div className='text-white/40 text-sm'>Featured</div>
-        <div className='text-white font-bold text-xl'>Projects</div>
+        <div className={`${mode=="dark"?"text-white/40":"text-black/40"} text-sm`}>Featured</div>
+        <div className={`${mode=="dark"?"text-white":"text-black"} font-bold text-xl`}>Projects</div>
          <div className='flex flex-col  flex-wrap mt-8 gap-6 items-center'>
          
 
 
-           <div className='flex-col rounded-xl border border-white/20 w-[98%]  bg-[#171717]'>
+           <div className={`flex-col rounded-xl  w-[98%] ${mode=="dark"?" border border-white/20 bg-[#171717]":"bg-white border-2 border-black/20"}`}>
             <div><img src={gosynk} className=' w-full h-auto object-cover rounded-xl ' alt="" /></div>
             <div className='flex w-full p-2 flex-col'>
               <div className='flex justify-between'>
                 <div className='font-bold text-lg'>GoSynk</div>
                 <div className='flex gap-4 items-center mr-2'>
                   <div>
-                    <a href="" className='text-white/50 text-2xl hover:text-white font-black'><GoGlobe/></a>
+                    <a href="" className={`${mode=="dark"?"text-white/50 hover:text":"text-black/50 hover:text-black"} text-2xl -white font-black`}><GoGlobe/></a>
                   </div>
                    <div>
-                    <a href="" className='text-white/50 text-2xl hover:text-white font-black'><FiGithub/></a>
+                    <a href="" className={`${mode=="dark"?"text-white/50 hover:text":"text-black/50 hover:text-black"} text-2xl -white font-black`}><FiGithub/></a>
                   </div>
                 </div>
                
 
               </div>
-              <div className='text-white/70 p-1'>
+              <div className={`${mode=="dark"?"text-white/70":"text-black/70"} p-1`}>
                 A comprehensive study platform with notes, flashcards, quizzes, AI chatbot, and interactive learning tools
               </div>
-               <div className='text-white/40 mt-2'>
+               <div className={`${mode=="dark"?"text-white/40":"text-black/40"} mt-2`}>
                   Technologies
                 </div>
                 <div className='flex items-center pb-4 gap-2 mt-2'>
@@ -60,26 +63,26 @@ import { GoGlobe } from "react-icons/go";const Projects = () => {
 
 
 
-           <div className='flex-col rounded-xl border border-white/20 w-[98%]  bg-[#171717]'>
+           <div className={`flex-col rounded-xl  w-[98%] ${mode=="dark"?" border border-white/20 bg-[#171717]":"bg-white border-2 border-black/20"}`}>
             <div><img src={kled} className=' w-full h-auto object-cover rounded-xl ' alt="" /></div>
             <div className='flex w-full p-2 flex-col'>
               <div className='flex justify-between'>
                 <div className='font-bold text-lg'>KLED</div>
                 <div className='flex gap-4 items-center mr-2'>
                   <div>
-                    <a href="" className='text-white/50 text-2xl hover:text-white font-black'><GoGlobe/></a>
+                    <a href="" className={`${mode=="dark"?"text-white/50 hover:text":"text-black/50 hover:text-black"} text-2xl -white font-black`}><GoGlobe/></a>
                   </div>
                    <div>
-                    <a href="" className='text-white/50 text-2xl hover:text-white font-black'><FiGithub/></a>
+                    <a href="" className={`${mode=="dark"?"text-white/50 hover:text":"text-black/50 hover:text-black"} text-2xl -white font-black`}><FiGithub/></a>
                   </div>
                 </div>
                
 
               </div>
-              <div className='text-white/70 p-1'>
+              <div className={`${mode=="dark"?"text-white/70":"text-black/70"} p-1`}>
                 A comprehensive study platform with notes, flashcards, quizzes, AI chatbot, and interactive learning tools
               </div>
-               <div className='text-white/40 mt-2'>
+               <div className={`${mode=="dark"?"text-white/40":"text-black/40"} mt-2`}>
                   Technologies
                 </div>
                 <div className='flex items-center pb-4 gap-2 mt-2'>
@@ -106,26 +109,26 @@ import { GoGlobe } from "react-icons/go";const Projects = () => {
 
 
 
-           <div className='flex-col rounded-xl border border-white/20 w-[98%]  bg-[#171717]'>
+           <div className={`flex-col rounded-xl  w-[98%] ${mode=="dark"?" border border-white/20 bg-[#171717]":"bg-white border-2 border-black/20"}`}>
             <div><img src={skilldex} className=' w-full h-auto object-cover rounded-xl ' alt="" /></div>
             <div className='flex w-full p-2 flex-col'>
               <div className='flex justify-between'>
                 <div className='font-bold text-lg'>SkillDex</div>
                 <div className='flex gap-4 items-center mr-2'>
                   <div>
-                    <a href="" className='text-white/50 text-2xl hover:text-white font-black'><GoGlobe/></a>
+                    <a href="" className={`${mode=="dark"?"text-white/50 hover:text":"text-black/50 hover:text-black"} text-2xl -white font-black`}><GoGlobe/></a>
                   </div>
                    <div>
-                    <a href="" className='text-white/50 text-2xl hover:text-white font-black'><FiGithub/></a>
+                    <a href="" className={`${mode=="dark"?"text-white/50 hover:text":"text-black/50 hover:text-black"} text-2xl -white font-black`}><FiGithub/></a>
                   </div>
                 </div>
                
 
               </div>
-              <div className='text-white/70 p-1'>
+              <div className={`${mode=="dark"?"text-white/70":"text-black/70"} p-1`}>
                 A comprehensive study platform with notes, flashcards, quizzes, AI chatbot, and interactive learning tools
               </div>
-               <div className='text-white/40 mt-2'>
+               <div className={`${mode=="dark"?"text-white/40":"text-black/40"} mt-2`}>
                   Technologies
                 </div>
                 <div className='flex items-center pb-4 gap-2 mt-2'>
@@ -153,7 +156,7 @@ import { GoGlobe } from "react-icons/go";const Projects = () => {
 
 
 
-           <div className='flex-col rounded-xl border border-white/20 w-[98%]  bg-[#171717]'>
+           <div className={`flex-col rounded-xl  w-[98%] ${mode=="dark"?" border border-white/20 bg-[#171717]":"bg-white border-2 border-black/20"}`}>
             <div><img src={uselai} className=' w-full h-auto  object-cover rounded-xl ' alt="" /></div>
             <div className='flex w-full p-2 flex-col'>
               <div className='flex justify-between'>
@@ -161,16 +164,16 @@ import { GoGlobe } from "react-icons/go";const Projects = () => {
                 <div className='flex gap-4 items-center mr-2'>
                  
                    <div>
-                    <a href="" className='text-white/50 text-2xl hover:text-white font-black'><FiGithub/></a>
+                    <a href="" className={`${mode=="dark"?"text-white/50 hover:text":"text-black/50 hover:text-black"} text-2xl -white font-black`}><FiGithub/></a>
                   </div>
                 </div>
                
 
               </div>
-              <div className='text-white/70 p-1'>
+              <div className={`${mode=="dark"?"text-white/70":"text-black/70"} p-1`}>
                 A comprehensive study platform with notes, flashcards, quizzes, AI chatbot, and interactive learning tools
               </div>
-               <div className='text-white/40 mt-2'>
+               <div className={`${mode=="dark"?"text-white/40":"text-black/40"} mt-2`}>
                   Technologies
                 </div>
                 <div className='flex items-center pb-4 gap-2 mt-2'>
@@ -195,7 +198,7 @@ import { GoGlobe } from "react-icons/go";const Projects = () => {
             
           </div>
 
-<div className=' w-full justify-center bg-white hover:bg-white/70 hover:cursor-pointer items-center p-2 rounded-lg flex text-black font-bold '>
+<div className={`w-full justify-center ${mode=="dark"?"bg-white hover:bg-white/70 text-black":"bg-black hover:bg-black/95 text-white"} hover:cursor-pointer items-center p-2 rounded-lg flex  font-bold `}>
   <span className='px-1'>More here</span> <FiGithub/>
 </div>
 

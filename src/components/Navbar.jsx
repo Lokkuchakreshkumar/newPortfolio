@@ -1,7 +1,17 @@
 import React from 'react'
 import img from '../assets/Images/image.png'
-
+import { FaRegMoon } from "react-icons/fa6";
+import Theme from '../Theme.jsx'
+import { MdOutlineWbSunny } from "react-icons/md";
 const Navbar = () => {
+const {mode,setMode} = Theme();
+let handleMode = ()=>{
+  if(mode=="dark"){
+    setMode("bright")
+  }else{
+    setMode("dark")
+  }
+}
   return (
     <div className='bg-white/0 z-50 flex justify-between   px-2  sm:w-[42%] w-full h-20 fixed top-0 backdrop-blur-md'>
         
@@ -22,8 +32,9 @@ const Navbar = () => {
             </a>
             </div>
            </div>
-           <div className='flex bit sm:text-xl text-lg !sm:p-0 px-2 m-2 font-bold h-full items-center'>
-            Chakresh
+           <div className='flex transition duration-600 bit sm:text-xl text-lg !sm:p-0 px-2 m-2 font-bold h-full items-center'>
+            <span onClick={handleMode} className='text-sm s mx-5  hover:cursor-pointer rounded'>{mode=="dark" && <div className='border border-white/20 p-2 rounded inset-shadow-xs inset-shadow-white/10 hover:inset-shadow-white/20 bg-[#252525] hover:bg-[#2e2e2e]'><FaRegMoon/></div>}{mode=="bright"&& <div className='border border-black/20 p-2 rounded inset-shadow-xs inset-shadow-indigo-400'><MdOutlineWbSunny/></div>}</span>
+              <span className='sm:flex hidden'>Chakresh</span>
            </div>
         
     </div>
