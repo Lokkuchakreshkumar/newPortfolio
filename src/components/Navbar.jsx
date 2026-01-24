@@ -16,9 +16,9 @@ let handleMode = ()=>{
     <div className='bg-white/0 z-50 flex justify-between   px-2  sm:w-[42%] w-full h-20 fixed top-0 backdrop-blur-md'>
         
            <div className='flex items-center w-full h-full'>
-           <div>
-              <img src={img} className='rounded-xl hover:scale-90 hover:cursor-pointer border border-white w-14 h-14 object-cover' alt="" />
-           </div>
+           <a href="#home">
+              <img  src={img} className='rounded-xl hover:scale-90 hover:cursor-pointer border border-white w-14 h-14 object-cover' alt="" />
+           </a>
             <div className='flex font-medium h-full items-end gap-4   p-4'>
                
             <a href='#projects' className='hover:cursor-pointer hover:underline decoration-3'>

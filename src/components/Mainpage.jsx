@@ -29,7 +29,7 @@ const handleAnimationComplete = () => {
             <div className='w-3 h-3 rounded-full  bg-green-600 animate-pulse'></div>
          </div>
        </div>
-        <div className='flex flex-wrap    mt-6 font-bold  items-center '>
+        <section id='home' className='flex flex-wrap    mt-6 font-bold  items-center '>
             <BlurText
   text="Hello, I'm Chakresh "
   delay={200}
@@ -38,7 +38,7 @@ const handleAnimationComplete = () => {
   onAnimationComplete={handleAnimationComplete}
   className="sm:text-4xl text-2xl shrink-0"
 /> <span className={`${mode==="dark"?"text-white/60":"text-black/60"} sm:text-4xl text-2xl shrink-0`}>- A Full Stack Developer.</span>
-        </div>
+        </section>
         <div className={`text-lg p-2 m-0 mt-4 leading-11 tracking-wide ${mode==="dark"?"text-white/60":"text-black/60"}`}>
           I architect scalable web ecosystems using 
           <span className={`border-2  ${mode=="dark"?"border-white/50 bg-[#2E2E2E]  font-black text-white":"bg-white text-black font-black inset-shadow-sm inset-shadow-indigo-500/60 border-black/50"} rounded-md p-1 inline-flex items-center justify-center mx-2 border-dotted `}>
