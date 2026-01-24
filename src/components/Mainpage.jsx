@@ -63,7 +63,7 @@ const handleAnimationComplete = () => {
             <div className={`flex border hover:cursor-pointer inset-shadow-sm inset-shadow-white/10 hover:inset-shadow-white/15 border-white/20 hover:bg-[#252525] items-center rounded-lg bg-[#1C1C1C] justify-center p-2 ${mode=="dark"?"text-white ":"text-white border-black/40 hover:inset-shadow-white/60"}`}> <IoDocumentText/>
 <span className='px-1'>Resume / CV</span>
             </div>
-              <div className='flex border hover:cursor-pointer inset-shadow-sm hover:inset-shadow-indigo-400/35 inset-shadow-indigo-500  items-center rounded-lg hover:bg-white/80 font-light bg-white text-black justify-center p-2 bg-'> <LuSend/>
+              <div className='flex border hover:cursor-pointer inset-shadow-sm hover:inset-shadow-indigo-400/35 inset-shadow-indigo-300  items-center rounded-lg hover:bg-white/80 font-light bg-white text-black justify-center p-2 bg-'> <LuSend/>
 <span className='px-1'>Get in touch</span>
             </div>
             <div>
