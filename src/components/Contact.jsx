@@ -4,7 +4,7 @@ import Theme from '../Theme.jsx'
 const Contact = () => {
   let {mode} = Theme();
   return (
-    <div className="w-full flex condense flex-col mt-18 items-center  ">
+    <section id='contact' className="w-full flex condense flex-col mt-18 items-center  ">
           <div className={`condense  sm:text-6xl text-3xl bg-clip-text text-transparent ${mode=="dark"?"bg-linear-to-r from-white via-white/50 to-white/20":"bg-linear-to-r from-black via-black/50 to-black/10"}`}>GET IN TOUCH WITH ME
           </div>
    
@@ -23,7 +23,7 @@ const Contact = () => {
           </form>
             
         
-        </div>
+        </section>
   )
 }
 

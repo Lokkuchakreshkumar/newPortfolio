@@ -23,10 +23,10 @@ const Projects = () => {
                 <div className='font-bold text-lg'>GoSynk</div>
                 <div className='flex gap-4 items-center mr-2'>
                   <div>
-                    <a href="" className={`${mode=="dark"?"text-white/50 hover:text":"text-black/50 hover:text-black"} text-2xl -white font-black`}><GoGlobe/></a>
+                    <a target='_blank' href="https://gosynk.vercel.app" className={`${mode=="dark"?"text-white/50 hover:text-white":"text-black/50 hover:text-black"} text-2xl -white font-black`}><GoGlobe/></a>
                   </div>
                    <div>
-                    <a href="" className={`${mode=="dark"?"text-white/50 hover:text":"text-black/50 hover:text-black"} text-2xl -white font-black`}><FiGithub/></a>
+                    <a target='_blank' href="https://github.com/Lokkuchakreshkumar/gosynk" className={`${mode=="dark"?"text-white/50 hover:text-white":"text-black/50 hover:text-black"} text-2xl -white font-black`}><FiGithub/></a>
                   </div>
                 </div>
                
@@ -70,10 +70,10 @@ const Projects = () => {
                 <div className='font-bold text-lg'>KLED</div>
                 <div className='flex gap-4 items-center mr-2'>
                   <div>
-                    <a href="" className={`${mode=="dark"?"text-white/50 hover:text":"text-black/50 hover:text-black"} text-2xl -white font-black`}><GoGlobe/></a>
+                    <a target='_blank' href="https://kled.vercel.app" className={`${mode=="dark"?"text-white/50 hover:text-white":"text-black/50 hover:text-black"} text-2xl -white font-black`}><GoGlobe/></a>
                   </div>
                    <div>
-                    <a href="" className={`${mode=="dark"?"text-white/50 hover:text":"text-black/50 hover:text-black"} text-2xl -white font-black`}><FiGithub/></a>
+                    <a target='_blank' href="https://github.com/Lokkuchakreshkumar/KLU-DESK" className={`${mode=="dark"?"text-white/50 hover:text-white":"text-black/50 hover:text-black"} text-2xl -white font-black`}><FiGithub/></a>
                   </div>
                 </div>
                
@@ -116,10 +116,10 @@ const Projects = () => {
                 <div className='font-bold text-lg'>SkillDex</div>
                 <div className='flex gap-4 items-center mr-2'>
                   <div>
-                    <a href="" className={`${mode=="dark"?"text-white/50 hover:text":"text-black/50 hover:text-black"} text-2xl -white font-black`}><GoGlobe/></a>
+                    <a href="https://myskilldex.vercel.app" target='_blank' className={`${mode=="dark"?"text-white/50 hover:text-white":"text-black/50 hover:text-black"} text-2xl -white font-black`}><GoGlobe/></a>
                   </div>
                    <div>
-                    <a href="" className={`${mode=="dark"?"text-white/50 hover:text":"text-black/50 hover:text-black"} text-2xl -white font-black`}><FiGithub/></a>
+                    <a href="https://github.com/Lokkuchakreshkumar/SkillDex" target='_blank' className={`${mode=="dark"?"text-white/50 hover:text-white":"text-black/50 hover:text-black"} text-2xl -white font-black`}><FiGithub/></a>
                   </div>
                 </div>
                
@@ -164,7 +164,7 @@ const Projects = () => {
                 <div className='flex gap-4 items-center mr-2'>
                  
                    <div>
-                    <a href="" className={`${mode=="dark"?"text-white/50 hover:text":"text-black/50 hover:text-black"} text-2xl -white font-black`}><FiGithub/></a>
+                    <a href="https://github.com/Lokkuchakreshkumar/lai" target="_blank" className={`${mode=="dark"?"text-white/50 hover:text-white":"text-black/50 hover:text-black"} text-2xl -white font-black`}><FiGithub/></a>
                   </div>
                 </div>
                
@@ -198,9 +198,9 @@ const Projects = () => {
             
           </div>
 
-<div className={`w-full justify-center ${mode=="dark"?"bg-white hover:bg-white/70 text-black":"bg-black hover:bg-black/95 text-white"} hover:cursor-pointer items-center p-2 rounded-lg flex  font-bold `}>
+<a href='https://github.com/Lokkuchakreshkumar' target='_blank' className={`w-full justify-center ${mode=="dark"?"bg-white hover:bg-white/70 text-black":"bg-black hover:bg-black/95 text-white"} hover:cursor-pointer items-center p-2 rounded-lg flex  font-bold `}>
   <span className='px-1'>More here</span> <FiGithub/>
-</div>
+</a>
 
 
 

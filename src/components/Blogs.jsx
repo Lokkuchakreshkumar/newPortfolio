@@ -66,9 +66,9 @@ Everyone’s betting on LLMs like it’s the next internet but what if it’s ac
 
 
            </div>
-          <div className={`w-full justify-center mt-4 ${mode=="dark"?"bg-white  hover:bg-white/70 text-black":"bg-black hover:bg-black/95 text-white"} hover:cursor-pointer items-center p-2 rounded-lg flex  font-bold `}>
+          <a href='https://medium.com/@lokkuchakreshkumar' target="_blank" className={`w-full justify-center mt-4 ${mode=="dark"?"bg-white  hover:bg-white/70 text-black":"bg-black hover:bg-black/95 text-white"} hover:cursor-pointer items-center p-2 rounded-lg flex  font-bold `}>
             <span className='px-1'>More here</span> <SiMedium/>
-          </div>
+          </a>
          
 
     
