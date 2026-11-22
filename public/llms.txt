@@ -15,26 +15,26 @@
 
 - **KL University** (Guntur, India)
   - **Degree:** Bachelor of Technology in Computer Science and Engineering
-  - **CGPA:** 9.8 / 10.0
+  - **CGPA:** 9.71 / 10.0
   - **Timeline:** Aug 2024 – Aug 2028
 
 ---
 
-## Experience & Leadership
+## Experience & Roles
 
-### Independent Software Engineer (Full-Stack)
-*Remote / Freelance | Aug 2024 – Present*
-- Spearheaded production full-stack MERN web applications serving a combined 7,500+ active users.
-- Fortified authentication systems via OTP and JWT, ensuring 0% security breaches across 3 major deployments.
-- Refined MongoDB schema architectures and aggregation pipelines, reducing complex query response times by approximately 40%.
-- Automated recurring subscription and payment workflows via Cashfree webhooks, eliminating manual payment handling for 100% of users.
-- Administered and optimized Vercel deployments for Progressive Web Apps (PWA), maintaining 99.9% uptime.
+### Full Stack Engineer (Intern) | LVC Solutions
+*Jun 2026 – Present*  
+*Stack: Next.js, TypeScript, Node.js, Enterprise Architecture*
+- Architected key modules for **LVC Venture OS**, hardening escrow transactions and eliminating critical security vulnerabilities to ensure tamper-proof financial workflows.
+- Engineered real-time job-matching feeds for **LVC Fair Job**, optimizing query performance and reducing content latency across candidate streams.
+- Developed a high-throughput, multi-tenant **HRMS platform** structured to scale seamlessly across enterprise organizations.
 
-### Project Lead | ChitChatter (Open Source)
-*Leadership & Systems Architecture | Sep 2025 – Dec 2025*
-- Directed a development team of 4 peers, coordinating agile sprints and resolving engineering blockers for timely delivery.
-- Facilitated cross-functional technical communication between stakeholders, articulating system architecture and design tradeoffs.
-- Optimized team communication workflows, code review standards, and system documentation.
+### Forward Deployed Engineer (Intern) | DifrasAI
+*Mar 2026 – Jun 2026*  
+*Stack: Agentic AI Systems, LLM Orchestration, Frontend Engineering*
+- Built autonomous agentic workflows for an **Educational AI platform**, dynamically tailoring complex model reasoning to match individual student curricula and comprehension levels.
+- Implemented streaming pipelines and client-side rendering engines for dynamic AI content delivery, cutting perceived generation latency.
+- Bridged model capabilities with production requirements by deploying scalable API endpoints and evaluation loops for live classroom environments.
 
 ---
 
@@ -70,26 +70,26 @@
 - **Autonomous Fleet & Bot Harnesses:** Multi-agent local orchestration environments managing background ingestion, briefings, and task execution.
 
 ### Featured Web & Academic Platforms
-- **KLUDesk / KLED:** High-traffic academic portal and university resource hub serving 7,500+ students. Engineered scalable backend managing 1,000+ files with sub-200ms latency and offline-first PWA access. (https://kludesk.vercel.app | https://kled.vercel.app | https://github.com/Lokkuchakreshkumar/KLU-DESK)
-- **GoSynk:** Real-time campus social network and collaborative study platform for 1,000+ users featuring live announcements, event management, notes, flashcards, and quizzes. Incorporated client-side TensorFlow.js models for automated toxic content moderation, cutting moderation load by 90%. (https://gosynk.vercel.app | https://github.com/Lokkuchakreshkumar/gosynk)
-- **SkillDex:** Dynamic AI course engine generating structured curricula and technical lessons across 50+ topics. Accelerated generation time by 50% through parallelized OpenAI and Gemini API requests. (https://myskilldex.vercel.app | https://github.com/Lokkuchakreshkumar/SkillDex)
-- **UseLAI:** AI automation and content generation tool powered by Google Gemini AI, leveraging multi-agent prompt workflows. (https://github.com/Lokkuchakreshkumar/lai)
+- **KLUDesk / KLED:** Academic Resource Platform and university hub serving 7,500+ students. Engineered granular RBAC for role-based content access, indexing and caching engine managing 1,000+ assets with sub-200ms response times, and offline-first PWA service workers. (https://kludesk.vercel.app | https://kled.vercel.app | https://github.com/Lokkuchakreshkumar/KLU-DESK)
+- **GoSynk:** Real-time campus social network and event coordination platform supporting 1,000+ campus users. Integrated client-side TensorFlow.js filters to classify and eliminate toxic content, reducing manual moderation load by 90%. (https://gosynk.vercel.app | https://github.com/Lokkuchakreshkumar/gosynk)
+- **SkillDex:** Dynamic AI Learning Engine designing asynchronous LLM orchestration pipelines to assemble structured curricula for 50+ domains, cutting generation latency by 50%. (https://skilldex.vercel.app | https://myskilldex.vercel.app | https://github.com/Lokkuchakreshkumar/SkillDex)
+- **UseLAI:** Marketing automation and content generation tool powered by Google Gemini AI, leveraging multi-agent prompt workflows. (https://github.com/Lokkuchakreshkumar/lai)
 - **Homer & newPortfolio:** Modern reactive portfolio ecosystem designed for high performance, minimalism, and custom theme customization. (https://chakresh.vercel.app | https://github.com/Lokkuchakreshkumar/newPortfolio)
 
 ---
 
 ## Technical Stack & Skills
 
-- **Languages:** JavaScript (ES6+), Rust, TypeScript, Python, C, SQL, HTML5, CSS3.
-- **Frontend:** React.js, Next.js, Redux, Zustand, Tailwind CSS, Bootstrap, Responsive Design, Motion, PWA.
-- **Backend & Systems:** Node.js, Express.js, Rust (`rusqlite`, `serde`, `tiny_http`), RESTful APIs, MVC Architecture, JWT & OTP Authentication.
-- **Databases & Data Storage:** MongoDB, Mongoose, SQLite, DuckDB, Aggregation Pipelines, Schema Design.
-- **AI & ML:** Model Context Protocol (MCP), Google Gemini API, OpenAI API, TensorFlow.js, Prompt Engineering, Agentic Harnesses.
-- **DevOps & Cloud:** Linux (Ubuntu), Git, GitHub, Docker, Postman, Vercel, Chrome DevTools / CDP.
+- **Languages:** TypeScript, JavaScript (ES6+), Rust, Python, SQL, C, HTML5, CSS3.
+- **Frontend:** Next.js, React, Redux, Zustand, Tailwind CSS, Responsive UI, Motion, PWA.
+- **Backend & Systems:** Node.js, Express, Rust (`rusqlite`, `serde`, `tiny_http`), RESTful APIs, MVC Architecture, JWT Auth, Webhooks, Escrow Systems.
+- **Databases & Data Storage:** MongoDB, PostgreSQL, Mongoose, SQLite, DuckDB, Aggregation Pipelines, Query Optimization.
+- **AI & LLMs:** Agentic Workflows, LLM Orchestration, Prompt Engineering, Model Context Protocol (MCP), Google Gemini API, OpenAI API, TensorFlow.js.
+- **DevOps & Tools:** Git, Docker, Vercel, CI/CD Pipelines, Postman, System Observability, Linux (Ubuntu), Chrome DevTools / CDP.
 
 ---
 
 ## Certifications
 
-- **GitHub Copilot Certification:** 94%+ score, validating proficiency in AI-assisted software engineering.
-- **Lingua Skills Certificate:** B2 (Upper Intermediate) proficiency in professional English communication.
+- **GitHub Copilot Certification:** Achieved 94%+ score.
+- **Lingua Skills Certificate:** B2 Upper-Intermediate English proficiency.
