@@ -1,34 +1,63 @@
 # Lokku Chakresh Kumar (Chakresh)
 
-> Systems-first builder, high-agency engineer, and full-stack developer focused on autonomous agent architectures, systems engineering, developer infrastructure, and clean, high-performance software.
+> Systems-first builder, high-agency engineer, and full-stack software engineer focused on autonomous agent architectures, systems engineering, developer infrastructure, and clean, high-performance software.
 
 - **Website:** https://chakresh.vercel.app
 - **GitHub:** https://github.com/Lokkuchakreshkumar
-- **LinkedIn:** https://www.linkedin.com/in/chakresh-kumar-lokku-234237290
-- **X / Twitter:** https://x.com/chakresh_l
+- **LinkedIn:** https://www.linkedin.com/in/lokkuchakreshkumar/
+- **X (Twitter):** https://x.com/Chakresh2005
+- **Email:** lokkuchakreshkumar@gmail.com
+- **Phone:** +91-8688913488
+
+---
+
+## Education
+
+- **KL University** (Guntur, India)
+  - **Degree:** Bachelor of Technology in Computer Science and Engineering
+  - **CGPA:** 9.8 / 10.0
+  - **Timeline:** Aug 2024 – Aug 2028
+
+---
+
+## Experience & Leadership
+
+### Independent Software Engineer (Full-Stack)
+*Remote / Freelance | Aug 2024 – Present*
+- Spearheaded production full-stack MERN web applications serving a combined 7,500+ active users.
+- Fortified authentication systems via OTP and JWT, ensuring 0% security breaches across 3 major deployments.
+- Refined MongoDB schema architectures and aggregation pipelines, reducing complex query response times by approximately 40%.
+- Automated recurring subscription and payment workflows via Cashfree webhooks, eliminating manual payment handling for 100% of users.
+- Administered and optimized Vercel deployments for Progressive Web Apps (PWA), maintaining 99.9% uptime.
+
+### Project Lead | ChitChatter (Open Source)
+*Leadership & Systems Architecture | Sep 2025 – Dec 2025*
+- Directed a development team of 4 peers, coordinating agile sprints and resolving engineering blockers for timely delivery.
+- Facilitated cross-functional technical communication between stakeholders, articulating system architecture and design tradeoffs.
+- Optimized team communication workflows, code review standards, and system documentation.
 
 ---
 
 ## Core Focus Areas & Interests
 
 ### 1. Autonomous Agents & Agentic Infrastructure
-- Multi-agent fleet coordination and delegation architectures.
+- Multi-agent fleet coordination, delegation architectures, and reactive communication.
 - Agent harness design, dynamic execution loops, and practical tool-use environments.
-- Model Context Protocol (MCP) server design, remote endpoints, and tool integrations.
-- Headless browser automation via CDP (Chrome DevTools Protocol) and multi-environment workflows.
-- Evaluation of real-world model constraints, execution reliability, latency, and token economics.
+- Model Context Protocol (MCP) server design, remote authenticated endpoints, and protocol integrations.
+- Headless browser automation via Chrome DevTools Protocol (CDP) and multi-surface workflows.
+- Evaluation of real-world model execution constraints, latency, reliability, and token economics.
 
 ### 2. Systems & High-Performance Engineering
 - High-efficiency, low-footprint services and local utilities in Rust.
-- Scalable backend architectures, API engineering, and distributed design.
-- Linux systems internals, containerization, local process harnesses, and shell automation.
+- Scalable backend architectures, API engineering, and distributed service design.
+- Linux environment internals, containerization (Docker), local process harnesses, and shell automation.
 
 ### 3. Developer Platforms & Work Operating Systems
 - Building tooling that eliminates developer friction and automates complex routine human workflows.
-- Enterprise systems integrating employee lifecycles, project pods, and collaboration infrastructure.
+- Enterprise systems integrating employee lifecycles, project pods, attendance, and collaboration infrastructure.
 
 ### 4. Academic & Campus Infrastructure
-- Building accessible platforms and MCP endpoints unlocking locked university ERP and LMS systems directly for AI assistants.
+- Building accessible platforms and MCP endpoints unlocking locked university ERP and LMS systems directly for AI assistants without central database overhead.
 
 ---
 
@@ -41,19 +70,26 @@
 - **Autonomous Fleet & Bot Harnesses:** Multi-agent local orchestration environments managing background ingestion, briefings, and task execution.
 
 ### Featured Web & Academic Platforms
-- **GoSynk:** Comprehensive collaborative study platform offering synchronized flashcards, notes, AI chatbot tutoring, quizzes, and interactive learning tools. (https://gosynk.vercel.app | https://github.com/Lokkuchakreshkumar/gosynk)
-- **KLED (KLU-Desk):** Academic study and course resource portal featuring curated notes, flashcards, interactive quizzes, and AI assistance. (https://kled.vercel.app | https://github.com/Lokkuchakreshkumar/KLU-DESK)
-- **SkillDex:** Interactive skills roadmap, verification, and technical exploration platform. (https://myskilldex.vercel.app | https://github.com/Lokkuchakreshkumar/SkillDex)
-- **UsaLai:** AI assistant interface for interactive productivity workflows. (https://github.com/Lokkuchakreshkumar/lai)
+- **KLUDesk / KLED:** High-traffic academic portal and university resource hub serving 7,500+ students. Engineered scalable backend managing 1,000+ files with sub-200ms latency and offline-first PWA access. (https://kludesk.vercel.app | https://kled.vercel.app | https://github.com/Lokkuchakreshkumar/KLU-DESK)
+- **GoSynk:** Real-time campus social network and collaborative study platform for 1,000+ users featuring live announcements, event management, notes, flashcards, and quizzes. Incorporated client-side TensorFlow.js models for automated toxic content moderation, cutting moderation load by 90%. (https://gosynk.vercel.app | https://github.com/Lokkuchakreshkumar/gosynk)
+- **SkillDex:** Dynamic AI course engine generating structured curricula and technical lessons across 50+ topics. Accelerated generation time by 50% through parallelized OpenAI and Gemini API requests. (https://myskilldex.vercel.app | https://github.com/Lokkuchakreshkumar/SkillDex)
+- **UseLAI:** AI automation and content generation tool powered by Google Gemini AI, leveraging multi-agent prompt workflows. (https://github.com/Lokkuchakreshkumar/lai)
 - **Homer & newPortfolio:** Modern reactive portfolio ecosystem designed for high performance, minimalism, and custom theme customization. (https://chakresh.vercel.app | https://github.com/Lokkuchakreshkumar/newPortfolio)
 
 ---
 
 ## Technical Stack & Skills
 
-- **Languages:** Rust, TypeScript, JavaScript, Python, SQL, HTML5, CSS3.
-- **Frontend & UI:** React, Next.js, Vite, Tailwind CSS, Motion, Zustand.
-- **Backend & Systems:** Rust (`rusqlite`, `serde`, `tiny_http`), Node.js, Express.js, Linux / Shell.
-- **Databases & Data Storage:** SQLite, DuckDB, MongoDB.
-- **AI & Automation:** Model Context Protocol (MCP), Gemini API, Chrome DevTools Protocol (CDP), Agent harnesses.
-- **Deployment & Tooling:** Vercel, Git, GitHub.
+- **Languages:** JavaScript (ES6+), Rust, TypeScript, Python, C, SQL, HTML5, CSS3.
+- **Frontend:** React.js, Next.js, Redux, Zustand, Tailwind CSS, Bootstrap, Responsive Design, Motion, PWA.
+- **Backend & Systems:** Node.js, Express.js, Rust (`rusqlite`, `serde`, `tiny_http`), RESTful APIs, MVC Architecture, JWT & OTP Authentication.
+- **Databases & Data Storage:** MongoDB, Mongoose, SQLite, DuckDB, Aggregation Pipelines, Schema Design.
+- **AI & ML:** Model Context Protocol (MCP), Google Gemini API, OpenAI API, TensorFlow.js, Prompt Engineering, Agentic Harnesses.
+- **DevOps & Cloud:** Linux (Ubuntu), Git, GitHub, Docker, Postman, Vercel, Chrome DevTools / CDP.
+
+---
+
+## Certifications
+
+- **GitHub Copilot Certification:** 94%+ score, validating proficiency in AI-assisted software engineering.
+- **Lingua Skills Certificate:** B2 (Upper Intermediate) proficiency in professional English communication.
