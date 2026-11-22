@@ -1,18 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poly:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
 @import "tailwindcss";
 
+:root {
+  font-family: 'Stack Sans Notch', sans-serif;
+}
+
+body {
+  font-family: 'Stack Sans Notch', sans-serif;
+}
 
 .hanken{
-  font-family: "Hanken Grotesk", sans-serif;
-   font-optical-sizing: auto;
-
+  font-family: 'Stack Sans Notch', "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
 }
+
 .poly{
   font-family: "Poly", serif;
-  
 }
+
 .bit {
   font-family: "Bitcount Grid Single", system-ui;
   font-optical-sizing: auto;

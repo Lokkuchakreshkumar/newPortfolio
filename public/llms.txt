@@ -1,0 +1,59 @@
+# Lokku Chakresh Kumar (Chakresh)
+
+> Systems-first builder, high-agency engineer, and full-stack developer focused on autonomous agent architectures, systems engineering, developer infrastructure, and clean, high-performance software.
+
+- **Website:** https://chakresh.vercel.app
+- **GitHub:** https://github.com/Lokkuchakreshkumar
+- **LinkedIn:** https://www.linkedin.com/in/chakresh-kumar-lokku-234237290
+- **X / Twitter:** https://x.com/chakresh_l
+
+---
+
+## Core Focus Areas & Interests
+
+### 1. Autonomous Agents & Agentic Infrastructure
+- Multi-agent fleet coordination and delegation architectures.
+- Agent harness design, dynamic execution loops, and practical tool-use environments.
+- Model Context Protocol (MCP) server design, remote endpoints, and tool integrations.
+- Headless browser automation via CDP (Chrome DevTools Protocol) and multi-environment workflows.
+- Evaluation of real-world model constraints, execution reliability, latency, and token economics.
+
+### 2. Systems & High-Performance Engineering
+- High-efficiency, low-footprint services and local utilities in Rust.
+- Scalable backend architectures, API engineering, and distributed design.
+- Linux systems internals, containerization, local process harnesses, and shell automation.
+
+### 3. Developer Platforms & Work Operating Systems
+- Building tooling that eliminates developer friction and automates complex routine human workflows.
+- Enterprise systems integrating employee lifecycles, project pods, and collaboration infrastructure.
+
+### 4. Academic & Campus Infrastructure
+- Building accessible platforms and MCP endpoints unlocking locked university ERP and LMS systems directly for AI assistants.
+
+---
+
+## Key Projects
+
+### Featured Systems & Agent Work
+- **Ctrl:** High-performance personal assistant and driver daemon built in Rust utilizing SQLite and embedded HTTP services.
+- **LVC WorkOS:** Enterprise unified work operating system covering lifecycle management, attendance, timezone synchronization, and collaboration pods.
+- **KLMCP:** Remote Model Context Protocol (MCP) server bridging university ERP and LMS systems directly into AI assistants (Claude, ChatGPT) via authenticated endpoints without central database overhead. (https://github.com/Lokkuchakreshkumar/KLMCP)
+- **Autonomous Fleet & Bot Harnesses:** Multi-agent local orchestration environments managing background ingestion, briefings, and task execution.
+
+### Featured Web & Academic Platforms
+- **GoSynk:** Comprehensive collaborative study platform offering synchronized flashcards, notes, AI chatbot tutoring, quizzes, and interactive learning tools. (https://gosynk.vercel.app | https://github.com/Lokkuchakreshkumar/gosynk)
+- **KLED (KLU-Desk):** Academic study and course resource portal featuring curated notes, flashcards, interactive quizzes, and AI assistance. (https://kled.vercel.app | https://github.com/Lokkuchakreshkumar/KLU-DESK)
+- **SkillDex:** Interactive skills roadmap, verification, and technical exploration platform. (https://myskilldex.vercel.app | https://github.com/Lokkuchakreshkumar/SkillDex)
+- **UsaLai:** AI assistant interface for interactive productivity workflows. (https://github.com/Lokkuchakreshkumar/lai)
+- **Homer & newPortfolio:** Modern reactive portfolio ecosystem designed for high performance, minimalism, and custom theme customization. (https://chakresh.vercel.app | https://github.com/Lokkuchakreshkumar/newPortfolio)
+
+---
+
+## Technical Stack & Skills
+
+- **Languages:** Rust, TypeScript, JavaScript, Python, SQL, HTML5, CSS3.
+- **Frontend & UI:** React, Next.js, Vite, Tailwind CSS, Motion, Zustand.
+- **Backend & Systems:** Rust (`rusqlite`, `serde`, `tiny_http`), Node.js, Express.js, Linux / Shell.
+- **Databases & Data Storage:** SQLite, DuckDB, MongoDB.
+- **AI & Automation:** Model Context Protocol (MCP), Gemini API, Chrome DevTools Protocol (CDP), Agent harnesses.
+- **Deployment & Tooling:** Vercel, Git, GitHub.
